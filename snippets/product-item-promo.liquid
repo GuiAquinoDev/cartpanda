@@ -301,7 +301,8 @@
       {%- endif -%}
 
       
-      {% liquid assign taxa_12x = settings.juros_parcelamento | divided_by: 100 | plus: 1%}
+{% assign taxa_12x = settings.juros_parcelamento | divided_by: 100 | plus: 1 %}
+
        
 <p style="font-size: 12px;font-weight: 500;margin-top: -8px;margin-bottom: 14px;" >
   <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="14" height="14" viewBox="0 0 32 32" style="top: 3px;position: relative;">

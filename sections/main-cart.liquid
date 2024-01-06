@@ -443,14 +443,14 @@ document.addEventListener("DOMContentLoaded", function() {
 
    {% if settings.show_bandeiras %}
       
-            {% if settings.show_visa_p %}<img class="cartoes" src="{{ 'VISA 12.svg' | asset_url }}" alt="Visa">{% endif %}
-            {% if settings.show_master_p %}<img class="cartoes" src="{{ 'MASTERCARD 12.svg' | asset_url }}" alt="Mastercard">{% endif %}
-            {% if settings.show_elo_p %}<img class="cartoes" src="{{ 'ELO 12.svg' | asset_url }}" alt="Elo">{% endif %}
+            {% if settings.show_visa_p %}<img class="cartoes" src="{{ 'visa.svg' | asset_url }}" alt="Visa">{% endif %}
+            {% if settings.show_master_p %}<img class="cartoes" src="{{ 'mastercard.svg' | asset_url }}" alt="Mastercard">{% endif %}
+            {% if settings.show_elo_p %}<img class="cartoes" src="{{ 'elo.svg' | asset_url }}" alt="Elo">{% endif %}
 
-            {% if settings.show_hiper_p %}<img class="cartoes" src="{{ 'HIPERCARD 12.svg' | asset_url }}" alt="Hipercard">{% endif %}
-            {% if settings.show_discover_p %}<img class="cartoes" src="{{ 'DISCOVER 12.svg' | asset_url }}" alt="Discover">{% endif %}
-             {% if settings.show_pix_p %}<img class="cartoes" src="{{ 'PIX 12.svg' | asset_url }}" alt="Pix">{% endif %}
-              {% if settings.show_boleto_p %}<img class="cartoes" src="{{ 'BOLETO 12.svg' | asset_url }}" alt="BOLETO">{% endif %}
+            {% if settings.show_hiper_p %}<img class="cartoes" src="{{ 'hipercard.svg' | asset_url }}" alt="Hipercard">{% endif %}
+            {% if settings.show_discover_p %}<img class="cartoes" src="{{ 'discover.svg' | asset_url }}" alt="Discover">{% endif %}
+             {% if settings.show_pix_p %}<img class="cartoes" src="{{ 'pix.svg' | asset_url }}" alt="Pix">{% endif %}
+              {% if settings.show_boleto_p %}<img class="cartoes" src="{{ 'boleto.svg' | asset_url }}" alt="BOLETO">{% endif %}
       {% endif %}
 
 

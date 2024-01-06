@@ -1,5 +1,4 @@
-   
- {% if settings.show_whats_compra %}
+{% if settings.show_whats_compra %}
  
 <a href="https://api.whatsapp.com/send?phone={{ settings.whats_num_compra }}&text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20o%20produto:%20{{ product.title | escape }}" class="btn-whatsapp-buy" target="_blank"><ion-icon name="logo-whatsapp" class="logo-whatsapp-ionic md hydrated" role="img" aria-label="logo whatsapp"></ion-icon>{{ settings.whats_compra_text }}</a>
  
@@ -93,14 +92,14 @@
       
     <center><div class="payment-list2">
 
-            {% if settings.show_visa_p %}<img class="cartoes" src="{{ 'VISA 12.svg' | asset_url }}" alt="Visa">{% endif %}
-            {% if settings.show_master_p %}<img class="cartoes" src="{{ 'MASTERCARD 12.svg' | asset_url }}" alt="Mastercard">{% endif %}
-            {% if settings.show_elo_p %}<img class="cartoes" src="{{ 'ELO 12.svg' | asset_url }}" alt="Elo">{% endif %}
-            {% if settings.show_amex_p %}<img class="cartoes" src="{{ 'AMEX 12.svg' | asset_url }}" alt="Amex">{% endif %}
-            {% if settings.show_hiper_p %}<img class="cartoes" src="{{ 'HIPERCARD 12.svg' | asset_url }}" alt="Hipercard">{% endif %}
-            {% if settings.show_discover_p %}<img class="cartoes" src="{{ 'DISCOVER 12.svg' | asset_url }}" alt="Discover">{% endif %}
-             {% if settings.show_pix_p %}<img class="cartoes" src="{{ 'PIX 12.svg' | asset_url }}" alt="Pix">{% endif %}
-              {% if settings.show_boleto_p %}<img class="cartoes" src="{{ 'BOLETO 12.svg' | asset_url }}" alt="BOLETO">{% endif %}
+            {% if settings.show_visa_p %}<img class="cartoes" src="{{ 'visa.svg' | asset_url }}" alt="Visa">{% endif %}
+            {% if settings.show_master_p %}<img class="cartoes" src="{{ 'mastercard.svg' | asset_url }}" alt="Mastercard">{% endif %}
+            {% if settings.show_elo_p %}<img class="cartoes" src="{{ 'elo.svg' | asset_url }}" alt="Elo">{% endif %}
+            {% if settings.show_amex_p %}<img class="cartoes" src="{{ 'amex.svg' | asset_url }}" alt="Amex">{% endif %}
+            {% if settings.show_hiper_p %}<img class="cartoes" src="{{ 'hipercard.svg' | asset_url }}" alt="Hipercard">{% endif %}
+            {% if settings.show_discover_p %}<img class="cartoes" src="{{ 'discover.svg' | asset_url }}" alt="Discover">{% endif %}
+             {% if settings.show_pix_p %}<img class="cartoes" src="{{ 'pix.svg' | asset_url }}" alt="Pix">{% endif %}
+              {% if settings.show_boleto_p %}<img class="cartoes" src="{{ 'boleto.svg' | asset_url }}" alt="BOLETO">{% endif %}
   </div>   </center></center>
 
 {% endif %}
